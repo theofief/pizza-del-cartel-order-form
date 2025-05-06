@@ -1,4 +1,5 @@
 # 🍕 Pizza del Cartel - Ordering System
+Published version available [here](https://theofief.github.io/pizza-del-cartel-order-form/)
 
 Welcome to **Pizza del Cartel**, a PHP-based web application that allows users to order customizable pizzas with toppings and size options. A special promotion is also included (Buy 2 Margherita pizzas, get 1 free).
 
@@ -26,11 +27,9 @@ Welcome to **Pizza del Cartel**, a PHP-based web application that allows users t
 ```
 
 ##🛠️ Technologies
-```
-	•	HTML5
-	•	PHP 8+
-	•	CSS3 (optionnel)
-```
+- **HTML**  
+- **CSS**  
+- **PHP 8+**
 
 ## ⚙️ How to Run the Project
 
@@ -41,9 +40,15 @@ This project requires a local environment that supports PHP, such as:
 	•	Laragon
 ```
 
+*Contributions, feedback, and suggestions are welcome!*
+
 Steps with MAMP:
 ```
 	1.	Move the project folder to MAMP’s htdocs/ directory.
 	2.	Start the Apache (and MySQL if needed) server via MAMP.
 	3.	Access the project at: http://localhost:8888/pizza-del-cartel/index.html.
 ```
+
+## 📌 Project Status
+
+Fully functional **frontend-only** project — lightweight, fast, and dependency-free.
