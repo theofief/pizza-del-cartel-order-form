@@ -34,13 +34,15 @@ Welcome to **Pizza del Cartel**, a PHP-based web application that allows users t
 
 ## ⚙️ How to Run the Project
 
-```This project requires a local environment that supports PHP, such as:
+This project requires a local environment that supports PHP, such as:
+```
 	•	MAMP
 	•	XAMPP
 	•	Laragon
 ```
 
-```Steps with MAMP:
+Steps with MAMP:
+```
 	1.	Move the project folder to MAMP’s htdocs/ directory.
 	2.	Start the Apache (and MySQL if needed) server via MAMP.
 	3.	Access the project at: http://localhost:8888/pizza-del-cartel/index.html.
