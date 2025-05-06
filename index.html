@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pizza del Cartel - Order</title>
+  </head>
+  <body>
+    <div id="offer"><h2>2 bought 1 FFREEEEEE</h2></div>
+    <form action="order.php" method="POST">
+      <h1>Order Your Pizza</h1>
+      <input type="text" name="name" placeholder="Your Name" required /><br />
+      <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      /><br />
+      <input type="text" name="road" placeholder="Road" required /><br />
+      <input
+        type="text"
+        name="postal"
+        placeholder="Postal Code"
+        required
+      /><br />
+      <input type="text" name="city" placeholder="City" required /><br />
+      <input
+        type="text"
+        name="phone"
+        placeholder="Your Phone Number"
+        required
+      /><br />
+      <br />
+      <label for="pizza-name">Pizza:</label><br /><br />
+      <select name="pizza-name[]" id="pizza-name" multiple required>
+        <option value="margherita">Margherita - 8.99</option>
+        <option value="pepperoni">Pepperoni - 9.99</option>
+        <option value="hawaiian">Hawaiian - 10.99</option>
+        <option value="vegetarian">Vegetarian - 9.49</option>
+        <option value="bbq-chicken">BBQ Chicken - 11.99</option>
+        <option value="meat-lovers">Meat Lovers - 12.99</option>
+        <option value="seafood">Seafood - 13.99</option>
+        <option value="supreme">Supreme - 14.99</option>
+        <option value="cheese">Cheese - 7.99</option>
+        <option value="spicy">Spicy - 10.49</option>
+        <option value="chicken">Chicken - 11.49</option>
+        <option value="veggie">Veggie - 9.99</option>
+        <option value="pesto">Pesto - 10.99</option>
+        <option value="buffalo">Buffalo - 11.99</option>
+        <option value="chili">Chili - 10.49</option>
+        <option value="garlic">Garlic - 9.49</option>
+        <option value="spinach">Spinach - 9.99</option>
+        <option value="eggplant">Eggplant - 10.49</option>
+      </select>
+      <br /><br />
+      <select name="size" id="size" required>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+      <br /><br />
+      <label for="toppings">Toppings:</label><br />
+      
+      <input type="checkbox" name="toppings[]" id="extra-cheese" value="extra-cheese" />
+      <label for="extra-cheese"> Extra Cheese</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="mushrooms" value="mushrooms" />
+      <label for="mushrooms"> Mushrooms</label><br/>
+
+      <input type="checkbox" name="toppings[]" id="onions" value="onions" />
+      <label for="onions"> Onions</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="green-peppers" value="green-peppers" />
+      <label for="green-peppers"> Green Peppers</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="black-olives" value="black-olives" />
+      <label for="black-olives"> Black Olives</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="pineapple" value="pineapple" />
+      <label for="pineapple"> Pineapple</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="spinach" value="spinach" />
+      <label for="spinach"> Spinach</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="jalapenos" value="jalapenos" />
+      <label for="jalapenos"> Jalapenos</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="chicken" value="chicken" />
+      <label for="chicken"> Chicken</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="bacon" value="bacon" />
+      <label for="bacon"> Bacon</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="sausage" value="sausage" />
+      <label for="sausage"> Sausage</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="pepperoni" value="pepperoni" />
+      <label for="pepperoni"> Pepperoni</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="anchovies" value="anchovies" />
+      <label for="anchovies"> Anchovies</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="feta-cheese" value="feta-cheese" />
+      <label for="feta-cheese"> Feta Cheese</label><br/>
+      
+      <input type="checkbox" name="toppings[]" id="artichokes" value="artichokes" />
+      <label for="artichokes">Artichokes</label><br /><br />
+      <button type="submit">Order Now</button>
+    </form>
+  </body>
+</html>
