@@ -51,4 +51,4 @@ Steps with MAMP:
 
 ## 📌 Project Status
 
-Fully functional project — lightweight, fast, and dependency-free.
+Fully functional project (github pages deployement not working) — lightweight, fast, and dependency-free.
