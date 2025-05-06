@@ -51,4 +51,4 @@ Steps with MAMP:
 
 ## 📌 Project Status
 
-Fully functional **frontend-only** project — lightweight, fast, and dependency-free.
+Fully functional project — lightweight, fast, and dependency-free.
